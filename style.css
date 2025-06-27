@@ -33,4 +33,20 @@ ul {
 ul li {
   margin: 10px 0;
   font-size: 1.2em;
+}.services {
+  background-color: #111;
+  padding: 80px 20px;
+  color: pink;
+  text-align: center;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 12px 0;
+  font-size: 1.1em;
+  color: #ff69b4;
 }
