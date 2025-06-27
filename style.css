@@ -49,4 +49,53 @@ ul li {
   margin: 12px 0;
   font-size: 1.1em;
   color: #ff69b4;
+.pricing, .booking {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #111;
+  color: pink;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 600px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid pink;
+  font-size: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid pink;
+  background-color: black;
+  color: pink;
+  font-family: monospace;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff94c2;
 }
